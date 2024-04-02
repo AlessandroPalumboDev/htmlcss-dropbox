@@ -25,9 +25,7 @@ header{
     border: 1px solid black;
 }
 
-main{
-    background-color: black;
-}
+
 
 /* MAIN */
 .container{
@@ -44,7 +42,6 @@ main{
 
 .row{
     background-color: orange;
-    max-width: 1200px;
 }
 
 .col-100{
@@ -84,6 +81,29 @@ main{
     width: 30%;
     background-color: pink;
     border: 1px solid black;
+}
+
+.col-20{
+    width: 20%;
+    background-color: pink;
+    border: 1px solid black;
+    height: 100px;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+
+.col-20{
+    width: 20%;
+    background-color: pink;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.footer-bottom{
+    height: 50px;
 }
 
 
