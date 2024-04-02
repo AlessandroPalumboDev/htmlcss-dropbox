@@ -38,7 +38,7 @@ main{
 
 .container-sm{
     max-width: 990px;
-    background-color: blue;
+    background-color: rgb(230, 18, 201);
     border: 1px solid black;
 }
 
@@ -119,3 +119,10 @@ main{
     flex-wrap: wrap;
 }
 
+
+
+
+/* COLORI */
+.cartazucchero{
+    background-color: rgb(118, 151, 167);
+}
