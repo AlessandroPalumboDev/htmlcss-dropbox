@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 50px;
+    background-color: red;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+}
+
+.row-100{
+    height: 100%;
+}
+
+.col-header{
+    margin: 0 10px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+
+
+/* CLASSI UTILITY */
+.d-flex{
+    display: flex;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.txt-right{
+    text-align: right;
+}
