@@ -126,15 +126,39 @@ img{
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    background-color: pink;
     border: 1px solid black;
+    vertical-align: middle;
 }
 
 .small-square{
     border: 1px solid black;
     width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
+
+.small-square img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.content-square {
+    padding: 8%;
+    background-color: rgb(211, 210, 210);
+}
+
+.content-square img {
+    width: 70%;
+}
+
+.content-square hr {
+    margin-top: 50px;
+    width: 25%;
+    color: lightgray;
+}
+
 
 
 /* FOOTER */
@@ -250,7 +274,6 @@ footer{
     padding: 0 25px;
 }
 
-
 .padding-bottom-25{
     padding-bottom: 25px;
 }
@@ -297,6 +320,35 @@ footer{
 
 .bg-pink{
     background-color: pink;
+}
+
+.bg-green{
+    background-color: lightgreen;
+    border: 20px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-bordeax{
+    background-color: rgb(70, 23, 38);
+}
+
+.bg-sky{
+    background-color: rgb(0, 162, 226);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-dark-red{
+    background-color: rgb(170, 0, 0);
+}
+
+.bg-blue{
+    background-color: rgb(0, 0, 156);
+}
+
+.bg-yellow{
+    background-color: rgb(223, 189, 0);
 }
 
 .border{
