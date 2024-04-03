@@ -214,6 +214,10 @@ footer{
     margin: 0 auto;
 }
 
+.margin-top-200{
+    margin-top: 200px;
+}
+
 .margin-80-auto{
     margin: 80px auto;
 }
