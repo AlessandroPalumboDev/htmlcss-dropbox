@@ -126,7 +126,6 @@ img{
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    vertical-align: middle;
 }
 
 .small-square{
@@ -135,6 +134,7 @@ img{
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .small-square img{
@@ -142,20 +142,42 @@ img{
     filter: invert(100%);
 }
 
-.content-square {
+.content-square{
     padding: 8%;
     background-color: rgb(211, 210, 210);
 }
 
-.content-square img {
-    width: 70%;
+.content-square img{
+    width: 50%;
 }
 
-.content-square hr {
+.content-square hr{
     margin-top: 50px;
     width: 25%;
     color: lightgray;
 }
+
+.title-domande h2{
+    padding-left: 8px;
+}
+
+.domande li:first-child {
+    border-top: 1px solid grey;
+}
+
+.domande li {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.freccina{
+    padding-left: 40px;
+    font-size: 30px;
+    transform: rotate(180deg);
+}
+
 
 
 
