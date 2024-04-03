@@ -126,12 +126,10 @@ img{
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
     vertical-align: middle;
 }
 
 .small-square{
-    border: 1px solid black;
     width: 50%;
     height: 50%;
     display: flex;
@@ -262,6 +260,10 @@ footer{
     margin: 25px;
 }
 
+.padding-100{
+    padding: 100px 0;
+}
+
 .padding-40{
     padding: 40px 0;
 }
@@ -298,6 +300,10 @@ footer{
     font-size: 13px;
 }
 
+.grosso{
+    font-size: 40px;
+}
+
 .icon-sm{
     width: 15px;
 }
@@ -305,6 +311,8 @@ footer{
 .btn-white{
     border: 1px solid black;
     padding: 10px;
+    background-color: white;
+    color: black;
 }
 
 
@@ -361,4 +369,8 @@ footer{
 
 .grey{
     color: grey;
+}
+
+.purple{
+    color: rgb(88, 0, 88);
 }
