@@ -139,6 +139,19 @@ img{
     padding-bottom: 35px;
 }
 
+.dettagli-piano li{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.salienti-piano li{
+    display: flex;
+    align-items:baseline;
+    gap: 10px;
+}
+
+
 .col-33 .dettagli-piano li, .col-33 .acquista-piano li, .col-33 .salienti-piano li{
     list-style-type: none;
     padding: 10px 25px;
@@ -314,6 +327,10 @@ footer hr{
 
 .d-block{
     display: block;
+}
+
+.d-inline-block{
+    display: inline-block;
 }
 
 .gap-30{
