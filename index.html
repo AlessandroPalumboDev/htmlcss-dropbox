@@ -28,7 +28,7 @@
                         <li> <a href="#">Supporto</a></li>
                         <li><a href="#">Contatta l'ufficio vendite</a></li>
                         <li><a href="#">Accedi</a></li>
-                        <li><a class="inizia" href="#">Inizia</a></li>
+                        <li><a id="inizia" href="#">Inizia</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,10 +70,9 @@
             </div>
         </section>
         
-
         <!-- SEZIONE PIANI TARIFFARI -->
         <div class="container-sm margin-auto margin-top-80">
-            <div class="row d-flex wrap jc-space-between">
+            <div class="row d-flex wrap gap-30 ">
                 <div class="col-100">
                     <div class="content padding-bottom-25">
                         <h2 class="padding-40">Trova il piano business che fa per te</h2>
@@ -82,34 +81,150 @@
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content height-500 border-grey">
+                    <div class="content-piano border-grey">
                         <h5 class="txt-center padding-10">Singolo</h5>
                         <hr>
-                        <h3>Professional</h3>
-                        <h5><strong>&euro;12.00</strong></h5>
-                        <p class="grey piccolo">mese</p>
-                        <img class="icon-sm" src="./img/user.svg" alt="user">
-                        <span> 1 utente</span>
-                        <img  class="icon-sm" src="./img/folder.svg" alt="folder">
-                        <span>5 TB di spazio di archiviazione sicuro</span>
-                        <img  class="icon-sm" src="./img/share.svg" alt="share">
-                        <span>Funzioni di produttivit&agrave; premium e condivisione file semplice e sicura</span>
-                        <span class= "prova">Prova gratis per 30 giorni</span>
-                        <p>oppure <a href="#">acquista ora</a></p>
+                        <div class="nome-piano">
+                            <h3>Professional</h3>
+                            <h5><strong>&euro;12.00</strong></h5>
+                            <p class="grey piccolo">/mese</p>
+                        </div>
+                        <ul class="dettagli-piano">
+                            <li>
+                                <img class="icon-sm" src="./img/user.svg" alt="user">
+                                <span> 1 utente</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/folder.svg" alt="folder">
+                                <span>5 TB di spazio di archiviazione sicuro</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/share.svg" alt="share">
+                                <span>Funzioni di produttivit&agrave; premium e condivisione file semplice e <br> sicura</span>
+                            </li>
+                        </ul>
+                        <ul class="acquista-piano">
+                            <li>
+                                <a href="#"><p class= "prova">Prova gratis per 30 giorni</p></a>
+                            </li>
+                            <li>
+                                <p>oppure <a href="#">acquista ora</a></p>
+                            </li>
+                        </ul>
+                        <hr class="separatore">
+                        <ul class="salienti-piano">
+                            <li>
+                                <strong>Punti Salienti del piano</strong>
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Invia file fino a 100 GB con Dropbox Transfert
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Cartelle offline su dispositivi mobili
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content height-500 border-grey">
+                    <div class="content-piano border-grey">
                         <h5 class="txt-center padding-10">Team</h5>
                         <hr>
-
+                        <div class="nome-piano">
+                            <h3>Advanced</h3>
+                            <h5><strong>&euro;18.00</strong></h5>
+                            <p class="grey piccolo">/utente/mese</p>
+                        </div>
+                        <ul class="dettagli-piano">
+                            <li>
+                                <img class="icon-sm" src="./img/users.svg" alt="user">
+                                <span>3 o pi&ugrave; utenti</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/folder.svg" alt="folder">
+                                <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/share.svg" alt="share">
+                                <span>Sofisticate funzioni di copntrollo e per tenere al sicuro tutti i file del tuo team</span>
+                            </li>
+                        </ul>
+                        <ul class="acquista-piano">
+                            <li>
+                                <a href="#"><p class= "prova">Prova gratis per 30 giorni</p></a>
+                            </li>
+                            <li>
+                                <p>oppure <a href="#">acquista ora</a></p>
+                            </li>
+                        </ul>
+                        <hr class="separatore">
+                        <ul class="salienti-piano">
+                            <li>
+                                <strong>Punti Salienti del piano</strong>
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Nessun limite di spazio per i file
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Cartelle offline su dispositivi mobili
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Risparmio del 50% rispetto alle iscrizioni singole
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Possibilit&agrave; di inserire nuovi membri del team
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Gestione dei permessi in base ai ruoli
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content height-500 border-grey">
+                    <div class="content-piano border-grey">
                         <h5 class="txt-center padding-10">Azienda</h5>
                         <hr>
-
+                        <div class="nome-piano">
+                            <h3>Enterprise</h3>
+                            <h5><strong>&euro;Contattaci</strong></h5>
+                            <p class="grey piccolo">-</p>
+                        </div>
+                        <ul class="dettagli-piano">
+                            <li>
+                                <img class="icon-sm" src="./img/user.svg" alt="user">
+                                <span> 10 o pi&ugrave; utenti</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/folder.svg" alt="folder">
+                                <span>Soluzioni personalizzabili per la tua azienda</span>
+                            </li>
+                            <li>
+                                <img  class="icon-sm" src="./img/share.svg" alt="share">
+                                <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                            </li>
+                        </ul>
+                        <ul class="acquista-piano">
+                            <li>
+                                <a href="#"><p class= "prova">Contattaci</p></a>
+                            </li>
+                            <li>
+                                <p>oppure <a href="#">acquista ora</a></p>
+                            </li>
+                        </ul>
+                        <hr class="separatore">
+                        <ul class="salienti-piano">
+                            <li>
+                                <strong>Punti Salienti del piano</strong>
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Cartelle offline su dispositivi mobilli
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Servizio assistenza 24/h
+                            </li>
+                            <li>
+                                <span><strong>&check;</strong></span>Possibilit&agrave; di personalizzazione totale
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-100">
@@ -346,7 +461,7 @@
         </div>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER DELLA PAGINA -->
     <footer>
         <section class="footer-top">
             <div class="container margin-auto">

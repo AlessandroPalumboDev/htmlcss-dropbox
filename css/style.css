@@ -14,23 +14,22 @@ body{
     margin: 0;
 }
 
-ul{
+.col-header ul{
     list-style-type: none;
     padding: 0 10px;
 }
 
-ul a{
+.col-header ul a{
     text-decoration: none;
     color: grey;
 }
 
-.inizia{
+#inizia{
     padding: 5px 15px;
     background-color: #0057E5;
     border-radius: 2px;
     color: white;
 }
-
 
 
 /* MAIN */
@@ -64,7 +63,7 @@ ul a{
 }
 
 .col-33{
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 20px);
 }
 
 .col-30{
@@ -102,10 +101,31 @@ img{
     padding-top: 60px;
 }
 
-
+/* PIANI TARIFFARI */
 
 .radio{
     margin-right: 5px;
+}
+
+.nome-piano{
+    padding: 0 25px;
+}
+
+.nome-piano h3{
+    padding: 30px 0 20px 0;
+}
+
+.nome-piano p{
+    padding-bottom: 35px;
+}
+
+.dettagli-piano{
+    padding-bottom: 35px;
+}
+
+.col-33 .dettagli-piano li, .col-33 .acquista-piano li, .col-33 .salienti-piano li{
+    list-style-type: none;
+    padding: 10px 25px;
 }
 
 .prova{
@@ -113,8 +133,31 @@ img{
     background-color: #0057E5;
     border-radius: 2px;
     color: white;
+    text-align: center;
 }
 
+.acquista-piano :first-child a{
+    text-decoration: none;
+}
+
+.acquista-piano :last-child{
+    margin-bottom: 15px;
+}
+
+.separatore{
+    width: 20%;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.col-33 .salienti-piano :first-child, .salienti-piano{
+    padding-bottom: 20px;
+}
+
+.col-33 .salienti-piano li span{
+    color: #0057E5;
+    font-size: 20px;
+}
 
 
 
