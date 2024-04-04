@@ -163,9 +163,10 @@ img{
     border-radius: 2px;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 
-.acquista-piano :first-child a, .col-100 a{
+.col-100 a{
     text-decoration: none;
 }
 
@@ -466,6 +467,10 @@ footer hr{
 
 .position-relative{
     position: relative;
+}
+
+.txt-decoration-none{
+    text-decoration: none;
 }
 
 
