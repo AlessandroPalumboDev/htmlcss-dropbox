@@ -139,7 +139,7 @@ img{
     text-align: center;
 }
 
-.acquista-piano :first-child a{
+.acquista-piano :first-child a, .col-100 a{
     text-decoration: none;
 }
 
@@ -160,6 +160,14 @@ img{
 .col-33 .salienti-piano li span{
     color: #0057E5;
     font-size: 20px;
+}
+
+.col-100 .prova{
+    margin: 0 25px;
+}
+
+.contatta{
+    padding: 0 0 30px 25px;
 }
 
 
